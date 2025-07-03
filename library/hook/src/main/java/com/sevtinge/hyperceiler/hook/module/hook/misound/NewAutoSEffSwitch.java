@@ -25,29 +25,6 @@ import android.database.ContentObserver;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.RemoteException;
-import android.provider.Settings;
-
-import com.hchen.hooktool.HCBase;
-import com.hchen.hooktool.utils.SystemPropTool;
-import com.sevtinge.hyperceiler.hook.IEffectInfo;
-
-import org.luckypray.dexkit.DexKitBridge;
-
-/**
- * 新版连接耳机自动切换原声
- *
- * @author 焕晨HChen
- */
-package com.sevtinge.hyperceiler.hook.module.hook.misound;
-
-import android.content.Context;
-import android.content.Intent;
-import android.content.IntentFilter;
-import android.database.ContentObserver;
-import android.media.AudioManager;
-import android.os.Bundle;
-import android.os.Handler;
 import android.os.IBinder;
 import android.os.RemoteException;
 import android.provider.Settings;
